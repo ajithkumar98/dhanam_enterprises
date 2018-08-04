@@ -1,0 +1,392 @@
+body{
+	background-color: #eaeaea !important;
+}
+
+/*
+a4 for mobile
+presentation for others
+etsy store for slides*/
+
+/**********home************/
+
+.slide{
+	height: 400px !important;
+}
+
+.banner{
+	height: 400px !important;
+}
+
+.carousel-inner{
+	height: 400px !important;
+ }
+
+ .carousel-indicators{
+ 	height: 100px;
+ }
+
+.enquire{
+	padding:10px;
+	text-align: center;
+	background-color: white !important;
+	border:0px !important;
+	box-shadow: 0px 0px 5px lightgrey;
+}
+.tiles{
+	padding:10px;
+	margin: 10px;
+	box-shadow: 0px 0px 5px lightgrey;
+}
+
+.lab{
+	font-weight: bold;
+}
+
+.btn{
+	background-color: red !important;
+	height: 45px;
+	border:0px !important;
+	color: white !important;
+}
+
+.btng{
+	background-color: orange !important;
+	height: 45px;
+	margin-bottom: 10px;
+	border:0px !important;
+	color: white !important;
+}
+
+.input{
+	width: 100%;
+}
+.inputf{
+	width: 70%;
+	padding: 5px;
+}
+
+
+
+.edit{
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 0 0 1px 0px black
+}
+
+
+
+/********************************/
+
+/************pop-up******************/
+#ac-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   height: 100%;
+    background: rgba(255, 255, 255, .6);
+    z-index: 1001;
+}
+#popup {
+    width: 900px;
+    height: 600px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 70px;
+    left: 300px;
+}
+.ban-enquire{
+	padding:10px;
+	text-align: center;
+	border:0px !important;
+
+}
+.ban-lab{
+	font-weight: bold;
+	color: white;
+}
+.ban-input{
+	width: 100%;
+	position: relative;
+	right: 100%;
+}
+.sub{
+	position: relative;
+	right: 80%;
+}
+.close{
+	position: relative;
+	top: 0;
+	right: 0;
+}
+.enq-form{
+	text-align: left;
+	padding: 10px;
+	position: absolute;
+	right: 40px;
+	width: 30%;
+	top: 30%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+
+
+.close{
+	position: relative;
+	top: 400px;
+	right: 140px !important;
+}
+
+.enq-form{
+	text-align: left;
+	padding: 10px;
+	position: absolute;
+	right: 40px;
+	width: 80%;
+	top: 30%;
+}
+
+.btn{
+	right: 42%;
+}
+.sub{
+	position: relative;
+	left: 35% !important;
+}
+
+#popup img{
+	display: none;
+}
+
+.banner{
+	height: 120px !important;
+	margin-bottom:-50px;
+}
+
+.carousel-indicators{
+ 	display: none !important;
+ }
+
+.carousel-inner{
+	height: 120px !important;
+ }
+
+#ac-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   height: 100%;
+    background: rgba(255, 255, 255, .6);
+    z-index: 1001;
+}
+
+.ban-input{
+	text-align: center;
+width: 75% !important;
+position: relative;
+left: 35px;
+}
+
+#popup {
+    width: 100%;
+    height: 500px;
+    background-image: url('pics/mobile-pop.jpg');
+    background-size: contain;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 10%;
+    left: 0px;
+}
+
+.enquire{
+	padding: 5px !important;
+}
+
+
+.detail-pic{
+	height: 160px !important;
+	width: 180px !important;
+	position: relative;
+	left: 60px;
+}
+
+#detail-head{
+	font-size: 7vw !important;
+}
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+
+.banner{
+	height: 250px !important;
+	width: 100% !important;
+	/*margin-bottom:-50px;*/
+}
+.carousel-inner{
+	height: 250px !important;
+ }
+
+ .carousel-item{
+	
+	background-size: cover !important; 
+ }
+
+ .carousel-indicators{
+ 	height: 170px;
+ }
+
+#popup {
+    width: 900px;
+    height: 600px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.detail-pic{
+	height: 250px !important;
+	width: 100px !important;
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px){
+
+.banner{
+	height: 250px !important;
+	/*margin-bottom:-50px;*/
+}
+.carousel-inner{
+	height: 250px !important;
+ }
+
+ .carousel-indicators{
+ 	height: 170px;
+ }
+
+ .carousel-item{
+	
+	background-size: cover !important; 
+ }
+
+#popup {
+    width: 900px;
+    height: 600px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.detail-pic{
+	height: 320px !important;
+	width: 100px !important;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+
+.carousel-indicators{
+ 	height: 220px;
+ }
+
+.banner{
+	height: 200px !important;
+}
+
+#popup {
+    width: 700px;
+    height: 500px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+.detail-pic{
+	height: 200px !important;
+	width: 70px !important;
+}
+}
+
+
+@media only screen and (min-width: 991px) and (max-width: 1023px){
+
+
+#popup {
+    width: 700px;
+    height: 500px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+.detail-pic{
+	height: 250px !important;
+	width: 50px !important;
+}
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 767px){
+.carousel-indicators{
+ 	display: none !important;
+ }
+
+
+
+
+
+#popup {
+    width: 700px;
+    height: 500px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+.detail-pic{
+	height: 170px !important;
+	width: 190px !important;
+	position: relative;
+	left: 80px;
+}
+
+#detail-head{
+	font-size: 7vw !important;
+}
+
+}
+
+/*****************************************/
+footer{
+	background-color: black;
+	color: white;
+	width: 100% !important;
+}
